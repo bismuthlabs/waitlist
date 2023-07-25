@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input"
 import { db } from "@/firebase/config"
 import { collection, addDoc } from "firebase/firestore"
-import ImageSlider from "@/components/catalog";
 import { Button } from "@/components/ui/button";
 // import { Label } from "@/components/ui/label"
 import {
