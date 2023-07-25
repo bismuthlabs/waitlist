@@ -113,7 +113,7 @@ export default function Home() {
           <div style={{ position: "absolute", top: 48, left: 0, width: "100%", height: "1000px", background: "rgba(0, 0, 0, 0.5)" }}></div>
         </main>
 
-        <div className="mt-8 py-2 hidden">
+        {/* <div className="mt-8 py-2 hidden">
             <Sheet>
           <SheetTrigger asChild>
             <Button variant="outline" className="w-screen bg-transparent rounded-none absolute bottom-0 text-">Explore our products</Button>
@@ -126,7 +126,7 @@ export default function Home() {
               </SheetDescription>
             </SheetHeader>
             <Tabs defaultValue="account" className="w-[400px]">
-              <TabsList className="w-ful fle justify-center">
+              <TabsList className="">
                 <div className="w-fu fle justify-center">
                   <TabsTrigger value="account">Account</TabsTrigger>
                   <TabsTrigger value="password">Password</TabsTrigger>
@@ -137,7 +137,7 @@ export default function Home() {
             </Tabs>
           </SheetContent>
         </Sheet>
-        </div>
+        </div> */}
       </>
     </>
   );
