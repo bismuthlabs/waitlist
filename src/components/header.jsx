@@ -3,7 +3,7 @@ import { XMarkIcon } from '@heroicons/react/20/solid'
 export default function Header() {
   return (
 
-    <div className="relative isolate animate-pulse flex items-center justify-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5">
+    <div className="relative isolate flex items-center justify-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5">
       <div
         className="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
         aria-hidden="true"
@@ -36,13 +36,12 @@ export default function Header() {
           </svg> */}
           
         </p>
-        <a
-          href="#"
-          className="flex-none uppercase rounded-full bg-gray-900 px-3.5 text-lg font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+        <h1
+          className="flex-none uppercase rounded-lg bg-gray-900 px-3.5 text-lg font-semibold text-white shadow-sm"
         >
           Veliore 
           {/* <span aria-hidden="true">&rarr;</span> */}
-        </a>
+        </h1>
       </div>
     </div>
   )
